@@ -1,0 +1,32 @@
+Chess.com
+Aperte "F12",Vá Até a Aba "Console" e Cole (caso peça Permisão escreva "allow pasting" ou "permitir colar" e de enter) 
+ 
+Tabuleiros:
+
+1- Selva Alaranjada
+document.head.innerHTML+=`<style>chess-board,.board{background:url("//raw.githubusercontent.com/qxzri/ii/main/'.png") center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+2- Grama Verde
+document.head.innerHTML+=`<style>chess-board,.board{background:url(//raw.githubusercontent.com/qxzri/ii/main/i.png)center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+3- Esmeralda Escura
+document.head.innerHTML+=`<style>chess-board,.board{background:url(//raw.githubusercontent.com/qxzri/ii/main/l.png)center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+4- Guerra Glacial
+document.head.innerHTML+=`<style>chess-board,.board{background:url(//raw.githubusercontent.com/qxzri/ii/main/..png)center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+5- Guerra Selvagem
+document.head.innerHTML+=`<style>chess-board,.board{background:url(//raw.githubusercontent.com/qxzri/ii/main/!.png)center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+6- Grecia Antiga Verde
+document.head.innerHTML+=`<style>chess-board,.board{background:url(//raw.githubusercontent.com/qxzri/ii/main/j.png)center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+7- Minecraft Esquentado
+document.head.innerHTML+=`<style>chess-board,.board{background:url(//raw.githubusercontent.com/qxzri/ii/main/il.png)center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+8- Metallico Distópico
+document.head.innerHTML+=`<style>chess-board,.board{background:url(//raw.githubusercontent.com/qxzri/ii/main/li.png)center/cover!important}.board-bg{opacity:0!important}</style>`;
+
+
+Setas Cor (Mude o Numero "c=5" Para a cor mudar, de 1 aé o 10)
+c=5;document.head.innerHTML+=`<style>.arrows{filter:hue-rotate(${c*36}deg)!important}</style>`
